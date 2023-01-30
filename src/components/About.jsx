@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../assets/Avatar.png";
-
+// this is about page
 function About() {
   return (
     <div name='about' className="w-full font-serif bg-white py-16 px-4">
