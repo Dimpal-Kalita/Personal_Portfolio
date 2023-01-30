@@ -22,7 +22,7 @@ const Contacts = () => {
             <a href="https://www.linkedin.com/in/dimpal-kalita-819121226" target="_blank" rel="noreferrer"><FaLinkedin className='text-2xl md:text-3xl'/></a>
             <a href="https://github.com/Dimpal-Kalita" target="_blank" rel="noreferrer"><FaGithubSquare className='text-2xl md:text-3xl'/></a>
             <a href="mailto:kalitadimpal112@gmail.com" target="_blank" rel="noreferrer"><AiFillMail className='text-2xl md:text-3xl'/></a>
-            <a href="https://codeforces.com/profile/dk_sensei" target='_blank' rel="noreferrer"><SiCodeforces className='text-2xl md:text-3xl'/></a>
+            <a href="https://codeforces.com/profile/_Dimpal_" target='_blank' rel="noreferrer"><SiCodeforces className='text-2xl md:text-3xl'/></a>
             <a href="https://www.codechef.com/users/gatotkocha_dk"target='_blank' rel="noreferrer"><SiCodechef className='text-2xl md:text-3xl'/></a>            
         </div>
       
