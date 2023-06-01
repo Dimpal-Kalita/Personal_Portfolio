@@ -27,7 +27,7 @@ const Navbar = () => {
 
     <div className='flex justify-between items-center p-3 max-w-[1240px] mx-auto px-4 text-white'>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>dk_sensei</h1>
-        <ul className='hidden md:flex'>
+        <ul className='hidden md:flex hover:cursor-pointer'>
             <li className='p-4'><Link to="home" smooth={true} duration={500}>Home</Link></li>
             <li className='p-4'><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
             <li className='p-4'><Link to="achievements" smooth={true} offset={-50} duration={500}>Achievements</Link></li>

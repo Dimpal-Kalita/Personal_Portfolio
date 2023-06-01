@@ -8,10 +8,53 @@ import Reactlogo  from '../assets/React-logo.webp';
 import Cpplogo from '../assets/Cpplogo.png';
 import Gitlogo from '../assets/Gitlogo.png';
 import Tailwindlogo from '../assets/Tailwindlogo.png';
+import MongoLogo from '../assets/MongoLogo.png';
+
+import SkillCard from './SkillCard';
 
 // icons
 import {AiOutlineGithub} from 'react-icons/ai'
 import {CgWebsite} from 'react-icons/cg';
+// import { data } from 'autoprefixer';
+
+
+const SkillData = [
+  {
+    key:1,
+    name: 'React',
+    logo: Reactlogo,
+    alt: 'React logo',
+    data: 'Know basic C/C++ programming. Used for contest programming and problem solving.'
+  },
+  {
+    key: 2,
+    name: 'C++',
+    logo: Cpplogo,
+    alt: 'C++ logo',
+    data: 'Know basic C/C++ programming. Used for contest programming and problem solving.'
+  },
+  {
+    key:3,
+    name: 'Git',
+    logo: Gitlogo,
+    alt: 'Git logo',
+    data:'Experienced with git-based development. Mostly, use Github,Git, Gitlab for version control.'
+  },
+  {
+    key:4,
+    name: 'Tailwind',
+    logo: Tailwindlogo,
+    alt: 'Tailwind logo',
+    data: 'Used Tailwind CSS for styling my projects. Know the basics of Tailwind.'
+  },
+  {
+    key:5,
+    name: 'Mongo DB',
+    logo: MongoLogo,
+    alt: 'Mongo DB logo',
+    data: 'Used Mongo DB for storing data in my projects. Know the basics of Mongo DB.'
+  }
+]
 
 
 function Projects() {
@@ -94,46 +137,13 @@ function Projects() {
         {/* Skill */}
         <h1 className='text-3xl mb- py-[2em] font-bold text-[#174033] text-center'>Skills</h1>
        <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 font-serif'>
-          <div className='cpp  w-full shadow-xl mb-5 flex flex-col px-[13%] my-4 rounded-lg hover:scale-105 duration-300'>
-              <div className='flex justify-center font-bold heading border-b-2 py-2'>
-                <img src={Cpplogo} alt="Cpplogo" className='w-6 mx-2' />
-                C++
+          {
+            SkillData.map((skill) => (
+              <div key={skill.key}> 
+                <SkillCard skill={skill} />
               </div>
-              <div className='skill about py-3'>
-               Know basic C/C++ programming. Used for contest programming and problem solving.
-              </div>
-          </div>
-          {/* second skill */}
-         <div className='cpp  w-full shadow-xl mb-5 flex flex-col px-[13%] my-4 rounded-lg hover:scale-105 duration-300'>
-              <div className='flex justify-center font-bold heading border-b-2 py-2'>
-              <img src={Reactlogo} alt="reactlogo" className='w-6 mx-2' />
-                React
-              </div>
-              <div className='skill about py-3'>
-               Worked on many projects using React. Know the basics of React.
-              </div>
-          </div>
-          {/* Third skill */}
-        <div className='cpp  w-full shadow-xl mb-5 flex flex-col px-[13%] my-4 rounded-lg hover:scale-105 duration-300'>
-              <div className='flex justify-center font-bold heading border-b-2 py-2'>
-                <img src={Gitlogo} alt="Gitlogo" className='w-6 mx-2' />
-                Git
-              </div>
-              <div className='skill about py-3'>
-                Experienced with git-based development. Mostly, use Github..
-              </div>
-          </div>
-         {/* fourths kill */}
-         <div className='cpp  w-full shadow-xl mb-5 flex flex-col px-[13%] my-4 rounded-lg hover:scale-105 duration-300'>
-              <div className='flex justify-center font-bold heading border-b-2 py-2'>
-              <img src={Tailwindlogo} alt="Tailwindlogo" className='w-6 mx-2 h-4 mt-1' />
-                Tailwind
-              </div>
-              <div className='skill about py-3'>
-                Used Tailwind CSS for styling my projects. Know the basics of Tailwind.
-              </div>  
-          </div>
-       
+            ))
+          }
        </div>      
     </div>
   )

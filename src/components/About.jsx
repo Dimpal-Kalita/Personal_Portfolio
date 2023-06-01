@@ -21,7 +21,7 @@ function About() {
           {/* <button className='bg-black flex justify-center w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-white'>Resume<BiLinkExternal className='mx-1 my-1'></BiLinkExternal> </button> */}
         <div className='flex justify-center my-2 mt-6'>
               <img alt="codeforces" src="https://cp-logo.vercel.app/codeforces/_Dimpal_" className='mx-1 h-4 md:h-6'/>
-              <img alt="codechef" src="https://img.shields.io/badge/codechef-2010-yellow" className='mx-1 h-4 md:h-6'/>
+              <img alt="codechef" src="https://img.shields.io/badge/codechef-2013-yellow" className='mx-1 h-4 md:h-6'/>
               <img alt="atcoder" src="https://cp-logo.vercel.app/atcoder/dk_sensei" className='mx-1 h-4 md:h-6'/>
             </div>
         </div>

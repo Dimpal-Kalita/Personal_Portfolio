@@ -17,7 +17,7 @@ const Newsletter = ()=>{
                   
 
                   <li>Expert (max-1631) in codeforces</li>
-                  <li>5⭐ (max-2010) in codechef</li>
+                  <li>5⭐ (max-2013) in codechef</li>
                   <li>Global rank 741 in Google Kickstart round F 2022</li>
                   <li>Top 12% on Leetcode</li>
                   <li>Global rank 60 in Codechef starters 67 (div 2)</li>
