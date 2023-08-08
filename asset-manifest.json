@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal_Portfolio/static/css/main.1fbade2c.css",
-    "main.js": "/Personal_Portfolio/static/js/main.049a29ff.js",
+    "main.css": "/Personal_Portfolio/static/css/main.77c919a4.css",
+    "main.js": "/Personal_Portfolio/static/js/main.8b8a6ff1.js",
     "static/media/EcellEJS.png": "/Personal_Portfolio/static/media/EcellEJS.86689088e6d6794779a3.png",
     "static/media/Portfoliotest.png": "/Personal_Portfolio/static/media/Portfoliotest.e5ff7077c135322a3d5e.png",
     "static/media/React-logo.webp": "/Personal_Portfolio/static/media/React-logo.f39ba627cc4e665e85b8.webp",
@@ -10,11 +10,11 @@
     "static/media/Cpplogo.png": "/Personal_Portfolio/static/media/Cpplogo.1240ce157b70fb399c6c.png",
     "static/media/Tailwindlogo.png": "/Personal_Portfolio/static/media/Tailwindlogo.5ddb60003daadbd2e679.png",
     "index.html": "/Personal_Portfolio/index.html",
-    "main.1fbade2c.css.map": "/Personal_Portfolio/static/css/main.1fbade2c.css.map",
-    "main.049a29ff.js.map": "/Personal_Portfolio/static/js/main.049a29ff.js.map"
+    "main.77c919a4.css.map": "/Personal_Portfolio/static/css/main.77c919a4.css.map",
+    "main.8b8a6ff1.js.map": "/Personal_Portfolio/static/js/main.8b8a6ff1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fbade2c.css",
-    "static/js/main.049a29ff.js"
+    "static/css/main.77c919a4.css",
+    "static/js/main.8b8a6ff1.js"
   ]
 }
